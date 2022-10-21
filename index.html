@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0">
+        <title>Generateur de citations</title>
+        <link rel="stylesheet" href="style.css"> 
+        <script type="text/javascript" src="citation.js" defer></script> 
+        <script type="text/javascript" src="main.js" defer></script>
+    </head>
+    <body>
+        <h1>Générateur de citations</h1>
+            <div id="container"></div>
+            <label for="quote-type">Choisissez type de citation:</label>
+
+            <select name="type" id="quote-type">
+                <option value="french">français</option>
+                <option value="english">anglais</option>
+            </select>
+        <label for="quote-select">Choisissez nombre de citation:</label>
+
+            <select name="num" id="quote-number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button id ="push">Générer</button>
+        </body>
+    
+</html>
